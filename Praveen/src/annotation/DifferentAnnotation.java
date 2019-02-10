@@ -21,7 +21,6 @@ public class DifferentAnnotation
   public void launch()
   {
 	  System.out.println("double on browser");
-	  
   }
   @BeforeClass
   public void onbrowser()
@@ -67,4 +66,5 @@ public class DifferentAnnotation
   }
 }
 
-
+ // All Annotation of TestNg are used in program but @BeforeMethod @Test @AfterMethod are Executed a pair.
+ // Here Two @Test Annotation are Executed  Two pairs........

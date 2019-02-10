@@ -13,3 +13,6 @@ public class InvocationCount
 	 System.out.println(c);
  }
 }
+
+// InvocationCount is used along with the @Test ,It repeats number of times.. keyword=invocationCount.
+// it also executed by the .xml way
