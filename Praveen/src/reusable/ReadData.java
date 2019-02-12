@@ -19,8 +19,8 @@ public static void main(String args[]) throws EncryptedDocumentException, IOExce
 	FileInputStream fis=new FileInputStream("D:\\Automation\\github\\Praveen\\src\\reusable\\praveen.xlsx");
 	Workbook wb=WorkbookFactory.create(fis);
 	Sheet s=wb.getSheet("Sheet1");
-	Row r=s.getRow(1);
-	Cell c=r.getCell(2);
+	Row r=s.getRow(2);
+	Cell c=r.getCell(3);
 	System.out.println(c.getStringCellValue());
 }
 }
